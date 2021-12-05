@@ -11,6 +11,7 @@ spec:
       labels:
         app: backend-api
     spec:
+      replicas: 3
       containers:
       - name: backend-api
         image: roajsa19/repo-python:latest
